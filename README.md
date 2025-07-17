@@ -46,7 +46,7 @@ eslint
 If a file at `src/services/actions/foo.ts` does not start with `'use server'`, ESLint will report an error:
 
 ```
-Error: servers/actions/*.ts files must start with 'use server'
+Error: servers/actions/*.ts must start with 'use server'
 ```
 
 ## License
