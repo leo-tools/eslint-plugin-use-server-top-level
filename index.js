@@ -41,7 +41,7 @@ module.exports = {
             if (firstCodeLine !== "'use server'" && firstCodeLine !== '"use server"') {
               context.report({
                 node,
-                message: filename + " files must start with 'use server'",
+                message: filename + " must start with 'use server'",
               });
             }
           }
