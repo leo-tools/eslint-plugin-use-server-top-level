@@ -9,14 +9,16 @@ Custom ESLint rule to ensure specified TypeScript files start with `'use server'
 
 ## Installation
 
-Copy `eslint-plugin-use-server-top-level.js` to your project root.
+```bash
+npm install @leo-tools/eslint-plugin-use-server-top-level --save-dev
+```
 
 ## Usage
 
 1. Import the plugin in your ESLint config (e.g. `eslint.config.mjs`):
 
 ```js
-import useServerPlugin from './eslint-plugin-use-server-top-level.js';
+import useServerPlugin from '@leo-tools/eslint-plugin-use-server-top-level';
 
 export default [
   {
@@ -34,7 +36,7 @@ export default [
 2. Run ESLint on your target files:
 
 ```bash
-eslint src/services/actions/**/*.ts
+eslint
 ```
 
 ## Options
