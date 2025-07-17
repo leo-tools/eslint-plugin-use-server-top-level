@@ -1,0 +1,31 @@
+{
+  "name": "@leo-tools/eslint-plugin-use-server-top-level",
+  "version": "0.0.9",
+  "description": "Custom ESLint rule to ensure specified TypeScript files start with `'use server'`.",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "leo",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "eslint",
+    "validate",
+    "code style",
+    "use server",
+    "React Server Components"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leo-tools/eslint-plugin-use-server-top-level.git"
+  },
+  "author": "tc9011",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leo-tools/eslint-plugin-use-server-top-level/issues"
+  },
+  "homepage": "https://github.com/leo-tools/eslint-plugin-use-server-top-level#readme"
+}
